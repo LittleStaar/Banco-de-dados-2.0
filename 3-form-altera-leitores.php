@@ -37,48 +37,48 @@ if ($codleitor > 0) {
     }
 };
 ?>
-        <form action="altera-leitor.php" method="post">
+        <form action="5-altera-leitor.php" method="post">
         <div>
         <label for="codleitor">Código:</label>
         <input type="text" id="codleitor" name="codleitor" readonly value="<?php 
                     echo isset($linha['CodLeitor']) ? htmlspecialchars($linha['CodLeitor']) : '' ?>" required />
       </div>
         <div>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" value="<?php 
+        <label for="Nome">Nome:</label>
+        <input type="text" id="nome" name="Nome" value="<?php 
                     echo isset($linha['Nome']) ? htmlspecialchars($linha['Nome']) : '' ?>" required />
       </div>
       <div>
-        <label for="dtnasc">Data de Nascimento:</label>
-        <input type="date" id="dtnasc" name="dtnasc" value="<?php echo isset($linha['DtNasc']) ? htmlspecialchars($linha['DtNasc']) : ''; ?>" required />
+        <label for="DtNasc">Data de Nascimento:</label>
+        <input type="date" id="dtnasc" name="DtNasc" value="<?php echo isset($linha['DtNasc']) ? htmlspecialchars($linha['DtNasc']) : ''; ?>" required />
       </div>
       <div>
-        <label for="celular">Celular:</label>
-        <input type="tel" id="celular" name="celular" value="<?php echo isset($linha['Celular']) ? htmlspecialchars($linha['Celular']) : ''; ?>" required />
+        <label for="Celular">Celular:</label>
+        <input type="tel" id="celular" name="Celular" value="<?php echo isset($linha['Celular']) ? htmlspecialchars($linha['Celular']) : ''; ?>" required />
       </div>
       <div>
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" value="<?php echo isset($linha['Email']) ? htmlspecialchars($linha['Email']) : ''; ?>" required />
+        <label for="Email">E-mail:</label>
+        <input type="email" id="email" name="Email" value="<?php echo isset($linha['Email']) ? htmlspecialchars($linha['Email']) : ''; ?>" required />
       </div>
       <div>
-        <label for="ra">RA:</label>
-        <input type="ra" id="ra" name="ra" value="<?php echo isset($linha['RA']) ? htmlspecialchars($linha['RA']) : ''; ?>" required />
+        <label for="RA">RA:</label>
+        <input type="ra" id="ra" name="RA" value="<?php echo isset($linha['RA']) ? htmlspecialchars($linha['RA']) : ''; ?>" required />
       </div>
       <div>
-        <label for="endereco">Endereço:</label>
-        <input type="text" id="endereco" name="endereco" value="<?php echo isset($linha['Endereco']) ? htmlspecialchars($linha['Endereco']) : ''; ?>" required />
+        <label for="Endereco">Endereço:</label>
+        <input type="text" id="endereco" name="Endereco" value="<?php echo isset($linha['Endereco']) ? htmlspecialchars($linha['Endereco']) : ''; ?>" required />
       </div>
       <div>
-        <label for="num_end">Número:</label>
-        <input type="number" id="num_end" name="num_end" value="<?php echo isset($linha['NumEnd']) ? htmlspecialchars($linha['NumEnd']) : ''; ?>" required />
+        <label for="NumEnd">Número:</label>
+        <input type="number" id="num_end" name="NumEnd" value="<?php echo isset($linha['NumEnd']) ? htmlspecialchars($linha['NumEnd']) : ''; ?>" required />
       </div>
       <div>
         <label for="bairro">Bairro:</label>
-        <input type="text" id="bairro" name="bairro" value="<?php echo isset($linha['Bairro']) ? htmlspecialchars($linha['Bairro']) : ''; ?>" required />
+        <input type="text" id="bairro" name="Bairro" value="<?php echo isset($linha['Bairro']) ? htmlspecialchars($linha['Bairro']) : ''; ?>" required />
       </div>
       <div>
-        <label for="cidade">Cidade:</label>
-        <input type="text" id="cidade" name="cidade" value="<?php echo isset($linha['CidadeUF']) ? htmlspecialchars($linha['CidadeUF']) : ''; ?>" required />
+        <label for="CidadeUF">Cidade:</label>
+        <input type="text" id="cidade" name="CidadeUF" value="<?php echo isset($linha['CidadeUF']) ? htmlspecialchars($linha['CidadeUF']) : ''; ?>" required />
       </div>
       <div>
         <button type="submit">Atualizar</button>
@@ -91,7 +91,7 @@ if ($codleitor > 0) {
     function excluirLeitor() {
       if (confirm('Tem certeza que deseja excluir este cadastro?')) {
         // Aqui você pode adicionar a lógica para excluir o leitor, talvez redirecionando para uma página PHP
-        window.location.href = 'excluir-leitor.php?codleitor=' + document.getElementById('codleitor').value;
+        window.location.href = '6-excluir-leitor.php?codleitor=' + document.getElementById('codleitor').value;
       }
     }
   </script>
