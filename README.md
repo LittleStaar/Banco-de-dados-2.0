@@ -1,6 +1,6 @@
 # Sistema Biblioteca
 ## Sobre o projeto
-O Projeto Biblioteca é uma aplicação que permite a gestão de livros em uma biblioteca. 
+O Projeto Biblioteca é uma aplicação que permite a gestão de livros em uma biblioteca.<br>
 O sistema permite a inclusão, exclusão e busca de livros. 
 O sistema também permite a inclusão, exclusão e busca de leitores.
 ## Tecnologias utilizadas
