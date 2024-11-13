@@ -7,12 +7,10 @@
 <body>
     <div class="container-leitores">
         <div class="box-leitores">
-        <header>
         <a href="index.html"><button title="Voltar ao início">Home</button></a>
             <h1 class="text-center">SISTEMA BIBLIOTECA</h1>
             <h3 class="text-center">Leitores Cadastrados</h3>
         <hr>
-    </header>
    <main>
    <?php
     include "config.php";
