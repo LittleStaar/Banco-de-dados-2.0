@@ -7,12 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
     <a href="index.html"><button title="Voltar ao início">Home</button></a>
         <h1 class="text-center">SISTEMA BIBLIOTECA</h1>
         <h3 class="text-center">ALTERAR CADASTRO DE LIVROS</h3>
     <hr>
-  </header>
   <main>
   <?php
 include "config.php"; // Inclui o arquivo de configuração do banco de dados
