@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 mysqli_close($conn);
 
 // Redireciona para a página de listagem de livros ou qualquer outra página desejada
-echo '<a href="listar-livros.php">Voltar para a lista de livros</a>';
+echo '<a href="10-listar-livros.php">Voltar para a lista de livros</a>';
 ?>
   </main>
 </body>
