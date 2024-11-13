@@ -6,12 +6,10 @@
 <body>
     <div class="container-livros">
         <div class="box-livros">
-        <header>
         <a href="index.html"><button title="Voltar ao início">Home</button></a>
             <h1 class="text-center">SISTEMA BIBLIOTECA</h1>
             <h3 class="text-center">Livros Cadastrados</h3>
         <hr>
-    </header>
    <main>
    <?php
     include "config.php";
