@@ -5,12 +5,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
         <a href="index.html"><button title="Voltar ao início">Home</button></a>
         <h1 class="text-center">SISTEMA BIBLIOTECA</h1>
         <h3 class="text-center">CADASTRO DE LIVROS</h3>
         <hr>
-</header>
 <?php
 // Conexão com o banco de dados
 include "config.php";
